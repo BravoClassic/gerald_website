@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>file:///home/bravoclassic/Videos/Piano%20lessons/videoplayback%20(26).mp4</location>
+			<duration>621736</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Videos/Message/140112-%20A%20Review%20of%20Godhead%202%20-.mp4</location>
+			<duration>13809375</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Music/True%20bride%20music/AUD-20160517-WA0000.m4a</location>
+			<duration>126975</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Music/True%20bride%20music/AUD-20160516-WA0000.m4a</location>
+			<duration>108212</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Music/True%20bride%20music/AUD-20160115-WA0016.mp3</location>
+			<duration>191898</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Music/True%20bride%20music/AUD-20160112-WA0016.mp3</location>
+			<duration>111370</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Videos/Piano%20lessons/videoplayback%20(26).mp4</location>
+			<duration>621736</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Music/True%20bride%20music/AUD-20160105-WA0020.mp3</location>
+			<duration>364408</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Music/True%20bride%20music/AUD-20160105-WA0019.mp3</location>
+			<duration>226406</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Music/True%20bride%20music/AUD-20160105-WA0018.mp3</location>
+			<duration>279014</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Videos/Message/140112-%20A%20Review%20of%20Godhead%202%20-.mp4</location>
+			<duration>13809375</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Music/True%20bride%20music/AUD-20160517-WA0000.m4a</location>
+			<duration>126975</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Music/True%20bride%20music/AUD-20160516-WA0000.m4a</location>
+			<duration>108212</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Music/True%20bride%20music/AUD-20160115-WA0016.mp3</location>
+			<duration>192139</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Music/True%20bride%20music/AUD-20160112-WA0016.mp3</location>
+			<duration>126936</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Videos/Piano%20lessons/videoplayback%20(26).mp4</location>
+			<duration>621736</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Videos/Piano%20lessons/videoplayback%20(26).mp4</location>
+			<duration>621736</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/bravoclassic/Music/True%20bride%20music/AUD-20160112-WA0016.mp3</location>
+			<duration>111163</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+			<vlc:item tid="1"/>
+			<vlc:item tid="2"/>
+			<vlc:item tid="3"/>
+			<vlc:item tid="4"/>
+			<vlc:item tid="5"/>
+			<vlc:item tid="6"/>
+			<vlc:item tid="7"/>
+			<vlc:item tid="8"/>
+			<vlc:item tid="9"/>
+			<vlc:item tid="10"/>
+			<vlc:item tid="11"/>
+			<vlc:item tid="12"/>
+			<vlc:item tid="13"/>
+			<vlc:item tid="14"/>
+			<vlc:item tid="15"/>
+			<vlc:item tid="16"/>
+			<vlc:item tid="17"/>
+	</extension>
+</playlist>
