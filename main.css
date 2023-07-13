@@ -1,0 +1,432 @@
+/* Gerald CSS Code 
+   Copyright 2017
+*/
+
+
+/*General*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #eeeced;
+    display: block;
+    height: 100%;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+aside,
+footer,
+section,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+h3 {
+    font-size: 19px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus,
+a:hover,
+a:active {
+    outline: 0px auto -webkit-focus-ring-color !important;
+    outline: 0px auto focus-ring-color !important
+}
+
+
+/*Navbar*/
+
+.navbar {
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: #4d4d4d;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    border: 5px solid #fff;
+    height: 250px;
+    width: 300px;
+    margin-left: 120px;
+    overflow: hidden;
+}
+
+.logo img {
+    transform: rotate(180deg);
+}
+
+.nav-menu {
+    width: 80%;
+    margin: 2em auto;
+    margin-bottom: 0px !important;
+}
+
+.nav-menu1 {
+    display: none;
+}
+
+.nav-menu-list {
+    width: 35%;
+    height: 100%;
+}
+
+.nav-menu-list {
+    display: block;
+}
+
+.nav-menu-list li {
+    height: 28px;
+    width: initial;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    line-height: 1.9;
+    text-shadow: 0.9px 0.5px 0.5px rgba(225, 225, 225, 0.9)
+}
+
+.nav-menu-list li:hover {
+    color: skyblue;
+    background-color: white;
+    transition: .5s cubic-bezier(.6, .04, .98, .34);
+}
+
+.nav-menu-list li:focus {
+    color: skyblue;
+    background-color: white;
+}
+
+.active {
+    transition: background-color .7s ease-in, box-shadow .7s ease-in;
+    background-color: #333;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Container */
+
+.container {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 100% !important;
+    background-color: transparent;
+    float: right;
+}
+
+#container {
+    width: 70.7%;
+    padding-top: 0px;
+    background-color: #eeeced !important;
+    box-sizing: border-box;
+}
+
+.nameHead {
+    width: 50%;
+    background-color: rgba(249, 249, 249, 0.8);
+    margin: 0 auto !important;
+    height: 300px;
+    text-align: center;
+}
+
+.nameHeadCon {
+    width: 100%;
+    color: #333;
+    height: initial !important;
+    text-align: center;
+    margin: auto !important;
+    padding: 170px 0 0 0;
+}
+
+.nameHeadCon :after {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    content: "";
+    position: relative;
+    top: 10px;
+    width: 100px;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 1em;
+    width: 70%;
+}
+
+.content h1 {
+    font-weight: lighter;
+    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); */
+}
+
+.content p {
+    text-align: left;
+    padding: 5px;
+    font-size: x-large;
+    /*color: #6a6363; */
+    color: #999999;
+    text-shadow: 0.5px .5px 1px rgba(0, 0, 0, 0.23);
+}
+
+.circle {
+    background-color: red;
+    border-top: 5px solid blue;
+    border-top-style: 5px solid gray;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid blue;
+    border-right: 5px solid blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.circle p {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4.5;
+    font-size: 40px
+}
+
+.wrapper {
+    /*box-shadow: 1px 6px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow:1px 6px 5px 0px rgba(0,0,0,0.75);
+	-ms-box-shadow:1px 6px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow:1px 6px 5px 0px rgba(0,0,0,0.75);*/
+    display: inline-block;
+    margin: 1em 0;
+}
+
+.wrapper .logo {
+    margin: 0 2em 0 0;
+    float: left !important;
+    clear: left;
+}
+
+
+/* .wrapper h3,
+.wrapper p {
+    float: right !important;
+}
+ */
+
+
+/*form{
+	display:block;
+}*/
+
+label {
+    display: block;
+    width: 100%;
+}
+
+
+/*Skills bar*/
+
+#bars {
+    margin: 0.5em auto;
+    max-width: 960px;
+    overflow: hidden;
+}
+
+.bar {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.bar h3 {
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.bar-circle {
+    display: block;
+    margin: 0.7em auto;
+}
+
+
+/* Footer */
+
+footer {
+    width: inherit;
+    text-align: center;
+    background-color: transparent;
+    height: initial;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1em !important;
+    padding-left: 0 !important;
+}
+
+footer p {
+    width: 100%;
+    font-family: forte, cursive, ;
+    font-weight: 100;
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 10;
+    height: 12px;
+    color: white;
+    text-shadow: 0.3px 0.4px 0.5px rgba(225, 225, 225, 0.5);
+}
+
+.dropdown {
+    display: none
+}
+
+
+/*	Media	Screens	*/
+
+@media(max-width:768px) {
+    .nav-menu-list {
+        width: 100%;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .navbar {
+        width: 100%;
+        height: 30%;
+    }
+    .logo {
+        margin: auto;
+    }
+    .container {
+        float: none;
+        margin: auto;
+        width: 90%;
+    }
+    .content {
+        margin: 0;
+        width: 100%;
+        text-align: justify;
+    }
+    .nameHead {
+        height: 315px;
+    }
+    .nameHeadCon {
+        padding-top: 10.9em
+    }
+    /*    .nav-menu1 {
+        display: flex;
+        margin: auto;
+        width: 30%;
+        padding: 1em;
+        background-color: #4d4d4d;
+        transition: height 7s;
+        height: initial;
+        -webkit-transition: height 7s
+    }
+    .nav-menu1>p {
+        width: 100%;
+        text-align: center;
+        cursor: pointer;
+    }
+    .nav-menu1 :hover {
+        height: 50px;
+    } */
+    /* Style The Dropdown Button */
+    .dropbtn {
+        background-color: #4d4d4d;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+    }
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        margin: auto;
+        display: block;
+        width: 30%;
+    }
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+        background-color: #5e5e5e;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        margin: 0px;
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    .logo {
+        width: 60%;
+        height: 100%
+    }
+}
